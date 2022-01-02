@@ -1,3 +1,12 @@
+/***
+	Features of Array:-
+		1. Collection of similer type of data.
+		2. Array is a static memory allocation.
+		3. Array is a sequential memory alloction.
+		4. In array there is a chance of waste of memory.
+		5. Any kind of modification like insetion, deletion are physically not possible in case of array
+***/
+
 #include<stdio.h>
 #include<stdlib.h>
 #define size 5
