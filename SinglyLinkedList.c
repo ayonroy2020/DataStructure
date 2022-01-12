@@ -6,6 +6,10 @@
 		2. We can travrese the list in forword direction only.
 		3. We have to hold the starting address.
 		4. It is mainly use to implement linear data structure like stack, queue, polynomial addition etc.
+	free(<ptr>);
+	It is an inbuilt in c that helps to deallocate or delete or remove that memory at runtime.
+	Dangling Pointer: After deletion of a particular node, the node still exists into the memory , this pointer is called dangling pointer.
+	We are unable to access it.
 ***/
 
 #include<stdio.h>
