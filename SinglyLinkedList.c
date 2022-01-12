@@ -235,6 +235,11 @@ void DeleteMiddle()
  
 void DeleteLast()
 {
+	if(start==NULL)
+	{
+		printf("\nLinked List is Empty.\n");
+		return;
+	}
 	for(temp=start; temp->next!=NULL; temp=temp->next)
 		current = temp;
 	
