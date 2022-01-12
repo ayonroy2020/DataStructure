@@ -227,11 +227,6 @@ void DeleteMiddle()
 			}
 			c++;
 			current = temp;
-			if(c==i)
-			{
-				printf("\nIt is the last node.By delete middle fucntion you cannot delete last node.\n");
-				break;
-			}
 		}
 	}
 }
@@ -247,7 +242,3 @@ void DeleteLast()
 	printf("\nDeleted node is: %d\n",temp->data);
 	free(temp);
 }
-
-
-
-
