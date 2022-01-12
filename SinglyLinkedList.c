@@ -199,7 +199,7 @@ void DeleteFirst()
 
 void DeleteMiddle()
 {
-	int pos, c=1, i=1;
+	int pos, c=1;
 	printf("\nEnter the position: ");
 	scanf("%d",&pos);
 	if(start==NULL)
@@ -217,7 +217,6 @@ void DeleteMiddle()
 	{
 		for(temp=current=start; temp->next!=NULL; temp=temp->next)
 		{
-			i++;
 			if(pos==c)
 			{
 				current->next = temp->next;
@@ -228,6 +227,7 @@ void DeleteMiddle()
 			c++;
 			current = temp;
 		}
+		for(current=start; current->next!=NULL; current=current->next);
 	}
 }
 
